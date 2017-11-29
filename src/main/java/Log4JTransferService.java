@@ -1,7 +1,8 @@
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Log4JTransferService extends TransferService {
-    private Logger logger = Logger.getLogger(Log4JTransferService.class);
+    private Logger logger = LoggerFactory.getLogger(Log4JTransferService.class);
 
     @Override
     protected void beforeTransfer(long amount) {

@@ -1,4 +1,4 @@
-import org.apache.log4j.MDC;
+import org.slf4j.MDC;
 
 public class Log4JRunnable implements Runnable {
 
